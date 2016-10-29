@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Moodle BFH Enhancement",
+  "version": "0.0.1",
+  "description": "Enhancements for the BFH Moodle site",
+
+  "content_scripts": [{
+    "css": ["moodle-bfh.css"],
+    "js": ["moodle-bfh.js"],
+    "matches": ["https://moodle.bfh.ch/*"]
+  }, {
+    "js": ["aai-logon-bfh.js"],
+    "matches": ["https://aai-logon.bfh.ch/*"]
+  }, {
+    "js": ["wayf-switch.js"],
+    "matches": ["https://wayf.switch.ch/*"]
+  }]
+
+}

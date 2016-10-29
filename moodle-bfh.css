@@ -1,0 +1,13 @@
+#homegrid {
+  display: none;
+}
+html body {
+  padding-top: 0 !important;
+}
+#page {
+  margin-top: -50px;
+  padding-left: 80px;
+}
+#page-navbar {
+  margin-bottom: 0;
+}
