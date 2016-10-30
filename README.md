@@ -10,8 +10,3 @@ Feel free to open pull requests and use these scripts.
 
 ## Open PDFs inline
 Install the [render-pdfs-inline](https://chrome.google.com/webstore/detail/render-pdfs-inline-for-be/mpmmilbhemhehclnkpkfepmaikiolaab) extension to use the Chrome pdf viewer instead of downloading pdfs.
-
-## TODO
-* Integrate the inline pdf rendering extension
-* Automatically select bfh, instead of relying on the page remembering it
-* Automatically submit login form, if browser autocompletes password

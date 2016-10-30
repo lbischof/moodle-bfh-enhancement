@@ -8,16 +8,46 @@ html body {
 }
 /* Remove unnecessary margin below header */
 header.navbar {
-    margin-bottom: -30px;
+    margin-bottom: -40px;
+}
+/* add background so that logo is covered */
+header h1 {
+    background: white;
+}
+/* Remove spacing in the navbar */
+nav.navbar-inner {
+    padding-top: 0 !important;
+}
+/* Counter the offcenter layout a bit */
+#page {
+    width: 100%;
+    max-width: 1000px;
+    padding: 0 20px !important;
+    box-sizing: border-box;
+}
+#dock, #block-region-side-pre, #block-region-side-post {
+    display: none !important;
+}
+#region-main, #region-main-box {
+    width: 100% !important;
 }
 /* Remove margin below breadcrumbs */
 #page-navbar {
-  margin-bottom: 0 !important;
+    display: none;
 }
 /* Remove underlines under the section names (Thema 1,2 etc) */
 .content h3.sectionname {
     border-bottom: none !important;
     padding-bottom: 0 !important;
+}
+/* Remove extra padding between each section */
+.course-content ul.topics
+li.section {
+    padding-bottom: 0 !important;
+}
+/* Remove borders under the dashboard headers */
+.block .header {
+    border-bottom: none !important;
 }
 /* Hide footer */
 html footer {
