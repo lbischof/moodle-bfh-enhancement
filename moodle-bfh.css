@@ -19,3 +19,7 @@ header.navbar {
     border-bottom: none !important;
     padding-bottom: 0 !important;
 }
+/* Hide footer */
+html footer {
+    display: none;
+}
