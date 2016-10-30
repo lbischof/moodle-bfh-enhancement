@@ -1,13 +1,21 @@
+/* Temporary fix, because redirect takes a while and the homegrid is bright yellow */
 #homegrid {
   display: none;
 }
+/* Remove padding because the header is not fixed anymore */
 html body {
   padding-top: 0 !important;
 }
-#page {
-  margin-top: -50px;
-  padding-left: 80px;
+/* Remove unnecessary margin below header */
+header.navbar {
+    margin-bottom: -30px;
 }
+/* Remove margin below breadcrumbs */
 #page-navbar {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
+}
+/* Remove underlines under the section names (Thema 1,2 etc) */
+.content h3.sectionname {
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
 }
