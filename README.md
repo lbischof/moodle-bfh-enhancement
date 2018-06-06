@@ -1,3 +1,6 @@
+https://gitlab.com/lbischof/moodle-bfh-enhancement
+![Moved to GitLab](https://i.imgur.com/wGgvnPq.png)
+
 # Moodle
 I created a few scripts to make using moodle a bit easier. The main features are currently automatic redirection to the login form and the dashboard.
 
